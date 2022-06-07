@@ -13,7 +13,7 @@ services:
   db:
     image: postgres
     environment:
-      POSTGRES_DB: development
+      POSTGRES_DB: sample_development
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
     volumes:
