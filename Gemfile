@@ -35,6 +35,9 @@ group :development, :test do
   gem 'rubocop-rails', require: false
   gem 'rubocop-rspec', require: false
   gem 'rubocop-discourse', require: false
+  gem 'minitest', '5.15.0'
+  gem 'minitest-reporters', '1.5.0'
+
 end
 
 group :development do
